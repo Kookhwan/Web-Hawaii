@@ -1,0 +1,224 @@
+html {
+	/* Reference
+	Oxford. (2017). THE WORLD PICTURES HAWAII BEAUTIFUL PLACES OF THE WORLD PICTURES. [image file]
+	Retrieved April 18, 2017, from http://www.oxfordpoetryelection.com/31b710bb1373f284.html */
+	background-image: url("../images/background_beach.jpg");	
+}
+body  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 900px;
+	background-color: rgba(255, 255, 255, 0);
+	margin: 0 auto; 
+	padding: 0;
+	border: 3px solid black;
+	box-shadow: 0 3px 9px 3px;
+}
+h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+
+/* Header */
+header { 
+	background-image: -webkit-linear-gradient(90deg, #2B497B 0%, #4E79C2 30%, #4E79C2 50%, #4E79C2 80%, #2B497B 100%);
+	background-image: linear-gradient(90deg, #2B497B 0%, #4E79C2 30%, #4E79C2 50%, #4E79C2 80%, #2B497B 100%);
+	font-family:'Libre Baskerville', Arial, Helvetica, sans-serif;
+    	padding: 15px;
+    	height: 95px;
+} 
+header img { 
+	float: left; 
+	padding-right: 15px;  
+} 
+header h2{
+	/* The slogan text */
+	font-family:"Matura MT Script Capitals", forte,"Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+	font-size:250%;
+	font-weight:normal;
+	margin:0 1em 0em;
+	color:#0B0484;
+	text-shadow: 2px 2px 2px white;
+}
+
+header #right { 
+	text-align: right;
+}
+header h3 {
+	font-size: 125%;
+	padding-bottom: 15px;
+}
+
+/* Navigation menu */
+#nav_menu {
+	clear: left;
+	background-color: rgb(60, 60, 60);
+}
+#nav_menu ul {
+	list-style: none;
+	position: relative;
+}
+#nav_menu ul li {
+	float: left;	
+}
+#nav_menu ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+//	left: 360px;
+}
+#nav_menu ul ul ul{
+	display: none;
+	position: absolute;
+	top: 50%;
+	right: -100%;
+}
+
+
+#nav_menu ul ul li {
+	float: none;
+	position: relative;
+}
+
+/* The styles for the horizontal navigation sub menu */
+#nav_menu ul ul li ul {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#nav_menu ul li.lastitem ul li ul {
+	position: absolute;
+	left: -100%;
+	top: 0;
+}
+
+
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* The styles for the horizontal navigation sub menu */
+#nav_menu ul {
+	margin: 0;
+	padding: 0 180px;
+}
+#nav_menu ul li a {
+	font-family: 'Sansita', Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	display: block;
+	width: 180px;
+	padding: .7em 0;
+	text-decoration: none;
+	background-color: rgb(60, 60, 60);
+	color: white;
+}
+#nav_menu ul li a.current {
+	color: orange;
+}
+
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+	background-color: gray;
+}
+
+/* Sidebar A*/
+#sidebarA {
+	width: 210px;
+	float: left;
+	margin-top: 7px; 0px 10px 7px;
+}
+
+#border_img {
+	border: 1px solid rgb(78, 121, 194); 
+}
+
+/* Sidebar B*/
+#sidebarB {
+	height: 600px;
+	font-family: 'Lora', Arial, Helvetica, sans-serif;
+	background-color: rgba(100, 100, 100, 0.4);
+	float: right;
+	width: 200px;
+	font-size: 85%;
+	padding-right: 10px;
+	text-shadow: rgb(0, 0, 0) 1px 1px 0px;
+}
+
+#sidebarB h3{
+	margin-top: 10px;
+	margin-left: 10px;
+	color: white;
+	width: 180px;
+	font-size: 130%;
+	padding-top: 15px;  
+}
+#sidebarB p {
+	margin-top: 10px;
+	margin-left: 10px;
+	color: white;
+}
+
+/* Navigation List */
+#nav_list ul { 
+	list-style: none;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+
+#nav_list ul li { 
+	width: 155px;
+	margin-bottom: 1em;
+	border: 1px solid black; 
+}
+	
+#nav_list ul li a img { 
+	margin-right: .3em;
+}
+
+#nav_list ul li a {
+	font-weight: 400;
+	background-image: -webkit-linear-gradient(90deg, #2B497B 0%, #4E79C2 30%, #4E79C2 50%, #4E79C2 80%, #2B497B 100%);
+	background-image: linear-gradient(90deg, #2B497B 0%, #4E79C2 30%, #4E79C2 50%, #4E79C2 80%, #2B497B 100%);
+	color: white;
+	display: block;
+	font-size: 0.9em;
+	padding: .5em;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+/* Section */
+section {
+	width: 420px;
+	float: left;
+	margin: 20px 0px 10px 10px;
+	font-weight: bold;
+	text-shadow: rgb(0, 0, 0) 1px 1px 0px;
+}
+
+div.box {
+	opacity: 0.8;
+	
+}
+
+
+/* Footer */
+footer { 
+	clear: both;
+	border-top: 2px solid black;
+	padding: 15px;
+	font-family: 'Sansita', Arial, Helvetica, sans-serif;
+	text-shadow: rgb(0, 0, 0) 1px 1px 0px;
+	background-image: -webkit-linear-gradient(90deg, #2B497B 0%, #4E79C2 30%, #4E79C2 50%, #4E79C2 80%, #2B497B 100%);
+	background-image: linear-gradient(90deg, #2B497B 0%, #4E79C2 30%, #4E79C2 50%, #4E79C2 80%, #2B497B 100%);
+} 
+footer p {
+	font-size: 110%;
+	text-align: center;
+	color: white;
+}

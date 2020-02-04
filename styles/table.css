@@ -1,0 +1,75 @@
+/* Section */
+section {
+	color: white;
+}
+section h2 {
+	font-family: 'Sansita', Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 200%;
+}
+
+section figure {
+	border: 2px solid black;
+	width: 650px;
+	padding: 15px;
+}
+
+section figcaption {
+	font-family: 'Sansita', Arial, Helvetica, sans-serif;
+	display: block;
+	font-weight: bold;
+	text-align: center;
+	font-size: 200%;
+}
+
+section caption {
+	text-align: right;
+	margin-bottom: 10px;
+	font-size: 90%;
+}
+section table {
+	border: 1px solid gray;
+	margin: 10px auto;
+}
+section table thead, section table tfoot {
+//	font-weight: bold;
+	border: 1px solid red;
+	vertical-align: text-top;
+}
+
+section table th {
+	text-align: center;
+	padding: .4em .4em;
+}
+section table td {
+	padding: .3em .4em;
+	text-align: left;
+	margin: .5em;
+	font-size: 90%;
+}
+
+section table td, section table th {
+//	padding: .2em .4em;
+	border: 1px solid gray;
+	background-color: rgba(145, 145, 145, 0.5);
+}
+
+section table thead {
+	background-color: rgba(100, 100, 100, 0.4);
+}
+
+#outer {
+	background-color: rgba(120, 120, 120, 0.4);
+	width: 70px;
+}
+#cell_1{
+	width: 90px;
+}
+#cell_2{
+	width: 90px;
+	text-align: right;
+}
+#cell_3{
+	width: 50px;
+	text-align: center;
+}
